@@ -1,0 +1,9 @@
+.align-middle{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+.stats{
+    border : .02px solid #eaeaea;
+    margin: 1px 
+}

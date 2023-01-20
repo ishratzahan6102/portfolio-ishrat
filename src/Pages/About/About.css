@@ -1,0 +1,59 @@
+.about-img{
+    filter: grayscale(300%);
+}
+.about-section{
+   
+    background-repeat: no-repeat;
+    background-image: url(../../assets/About.jpg);
+    filter: grayscale(100%);
+    background-size: 55%;
+    overflow: hidden;
+    padding: 100px;
+}
+.inner-about-section{
+    width:55%;
+    float: right;
+    border: 1px solid #cecece;
+    background-color: white;
+    padding: 40px;
+}
+@media screen and (max-width: 1200px){
+    /* .inner-about-section{
+        padding: 40px;
+    } */
+}
+@media screen and (max-width: 1000px){
+    .about-section{
+        width: 100%;
+        padding: 0px;
+    } 
+    
+    .inner-about-section{
+        width: 65%;
+      
+    }
+}
+@media screen and (max-width: 600px) {
+    .inner-about-section{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.904),
+    rgba(0, 0, 0, 0.5)), url(../../assets/About.jpg);
+    filter: grayscale(100%);
+    background-size: cover;
+    color: white;
+
+    }
+    .about-section{
+        background-color: transparent;
+        padding: 0px;
+        color: white;
+    }
+    .about-card{
+        padding: 0px;
+        color: white;
+    }
+    .about-me{
+        color: white;
+    }
+}

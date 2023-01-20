@@ -1,0 +1,33 @@
+
+.details-img img{
+    border: 1px solid #eaeaea;
+    
+}
+.details-img img:hover{
+   filter: opacity(50%);
+    
+}
+.details-card h1{
+ padding-bottom: 10px ;
+ border-bottom: 4px solid rgb(61, 61, 61);
+ width: 100px;
+ color: rgb(61, 61, 61);
+}
+.details-card {
+     color: rgb(61, 61, 61);
+}
+.portfolio-card{
+    
+    border: 1px solid #cecece;
+}
+.portfolio-card img{
+    border: 1px solid #cecece;
+    
+}
+
+.portfolio-card:hover{
+    box-shadow: 0px 3px 12px 0px #ccc;
+    border: 1px solid transparent;
+    transition: all 0.4s;
+}
+

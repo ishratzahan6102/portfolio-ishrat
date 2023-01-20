@@ -1,0 +1,118 @@
+[
+    {
+        "name":"Astor",
+        "img1":"https://i.ibb.co/w4J0YjP/Screenshot-137.png",
+        "img2":"https://i.ibb.co/ngP3SXR/Screenshot-134.png",
+        "img3":"https://i.ibb.co/FJSHFbg/Screenshot-135.png",
+        "img4":"https://i.ibb.co/5vV8qMC/Screenshot-139.png",
+        "intro" : "A website for reselling and buying electronic gadgets",
+        "details": {
+            "p1" : "Customer navigate to the desired phone collection page from Homepage.",
+            "p2" : "Separate Register and Login pages available, Customer can open two different types of account – Seller and Buyer.",
+            "p3" : "Dashboard for Admin to manage all the Sellers and Buyers.",
+            "p4" : "Customer can report or add an item to wishlist."
+        },
+
+        "technology" : "React JS, React Router Dom, React Hook, TanStack Query, React Icons, Node JS, Express JS, MongoDB, Vercel, Firebase",
+
+        "liveSite":"https://phone-resell-center.web.app/",
+        "clientSite":"https://github.com/ishratzahan6102/Upscale-Resale",
+        "serverSite":"https://github.com/ishratzahan6102/Astor-Source-Code/blob/main/index.js"
+    },
+    {
+        "name":"Decolite",
+        "img1":"https://i.ibb.co/SBBGDXh/Decolite.png",
+        "img2":"https://i.ibb.co/6t4vWYV/Screenshot-93.png",
+        "img3":"https://i.ibb.co/kq5v7pV/Screenshot-94.png",
+        "img4":"https://i.ibb.co/hfnv8pj/Screenshot-95.png",
+        "intro" : "A website for online shop on Eco-Friendly Lightening & Lamps",
+        "details": {
+            "p1" : "Customer navigate to the desired phone collection page from Homepage.",
+            "p2" : "Dashboard for Admin to manage all the Buyers.",
+            "p3" : "Customer can report or add an item to wishlist.",
+            "p4" : "Blogs for readers about tricks and tips on organized decoration"
+        },
+
+        "technology" : "React JS, React Router Dom, React Hook, TanStack Query, React Icons, Node JS, Express JS, MongoDB, Vercel, Firebase",
+        "liveSite":"https://decolite-5c33f.web.app/",
+        "clientSite":"https://github.com/ishratzahan6102/Decolite-Lightening",
+        "serverSite":"https://github.com/ishratzahan6102/Decolite-Lightening"
+    },
+    {
+        "name": "News Today",
+        "img1": "https://i.ibb.co/ftpg8nR/Screenshot-148.png",
+        "img2": "https://i.ibb.co/bsvVZ0H/Screenshot-149",
+        "img3": "https://i.ibb.co/Xx28LWP/Screenshot-150.png",
+        "img4": "https://i.ibb.co/D4zDDHB/Screenshot-151.png",
+        "intro" : "A website for reselling and buying electronic gadgets",
+        "details": {
+            "p1" : "Separate new category for each topics.",
+            "p2" : "Most viewed topic will be displayed at the top of the page.",
+            "p3" : "Clickable view details button.",
+            "p4" : "Blogs for readers on amazing topics."
+        },
+
+        "technology" : "HTML, CSS, JavaScript, Netlify",
+        "liveSite": "https://gregarious-pudding-765d96.netlify.app/index.html",
+        "clientSite": "https://github.com/ishratzahan6102/News",
+        "serverSite": "https://github.com/ishratzahan6102/News/blob/main/src/index.js"
+    },
+    {
+        "name": "Roxal Hotel",
+        "img1": "https://i.ibb.co/MndcGtL/Screenshot-140.png",
+        "img2": "https://i.ibb.co/BLwLWH6/Screenshot-141.png",
+        "img3": "https://i.ibb.co/cDZZscM/Screenshot-142.png",
+        "img4": "https://i.ibb.co/Cm1frTF/Screenshot-147.png",
+        "intro" : "A website for Resort/Hotel",
+        "details": {
+            "p1" : "Carousel to showcase beautiful hotel rooms.",
+            "p2" : "Cards to showcase rooms for reasonable prices.",
+            "p3" : "Cards for provided services.",
+            "p4" : "Photo album made with 'Happy Customers'."
+        },
+
+        "technology" : "Html, Css, Bootstrap, Swiper Js, Github, Javascript",
+        "liveSite": "https://ishratzahan6102.github.io/Roxal-Hotel/",
+        "clientSite": "https://github.com/ishratzahan6102/Roxal-Hotel",
+        "serverSite": "https://github.com/ishratzahan6102/Roxal-Hotel/blob/main/index.html"
+    },
+    {
+        "name": "Parallax Moon",
+        "img1": "https://i.ibb.co/pv66qyt/Screenshot-106.png",
+        "img2": "https://i.ibb.co/fMtY3Vt/Screenshot-107-Copy.png",
+        "img3": "https://i.ibb.co/VB655mH/Screenshot-113.png",
+        "img4": "https://i.ibb.co/cw8GRsp/Screenshot-114.png",
+        "intro" : "A fun project made with 'Parallax Effect'",
+        "details": {
+            "p1" : "Scroll down to say hello!"
+            
+        },
+
+        "technology" : "Html, Css, Bootstrap, Github, Javascript",
+        "liveSite": "https://clever-gecko-52df7f.netlify.app/",
+        "clientSite": "",
+        "serverSite": ""
+    },
+    {
+        "name":"Speed Typer",
+        "img1":"https://i.ibb.co/D99qQ2v/Screenshot-153.png",
+        "img2":"https://i.ibb.co/WHF6twT/Screenshot-157.png",
+        "img3":"https://i.ibb.co/1nYt7Xd/Screenshot-158.png",
+        "img4":"https://i.ibb.co/FDXm7Bd/Screenshot-159.png",
+        "intro" : "A website for checking spelling and practice typing.",
+        "details": {
+            "p1" : "When user clicks the start button the system will start..",
+            "p2" : "The user will be provided a sentence. The sentence is changeable.",
+            "p3" : "Mistaken spelling, punctuation, blank space will be underlined with error effect.",
+            "p4" : "User have to type within the given time duration."
+        },
+
+        "technology" : "HTML, CSS, JavaScript, Github, Bootstrap",
+        "liveSite":"https://wonderful-tapioca-4d6670.netlify.app/index.html",
+        "clientSite":"https://github.com/ishratzahan6102/Typing-Monster",
+        "serverSite":"https://github.com/ishratzahan6102/Typing-Monster"
+
+    }
+    
+]
+

@@ -1,0 +1,36 @@
+.qualification-block{
+    padding: 0px 30px ;
+    border-left: 2px solid #bababa;
+    margin-top: 20px;
+}
+.qualification-box{
+    position: relative;
+    padding: 20px;
+  
+    border: 1px solid #cecece;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-bottom: 20px;
+    
+}
+.qualification-box h2{
+    font-weight: bolder;
+}
+.qualification-box div{
+    margin-top: 10px;
+}
+.qualification-box:hover{
+    box-shadow: 0px 3px 12px 0px #ccc;
+    border: 1px solid transparent;
+}
+.qualification-box:before{
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    right: calc(100% + 24px);
+    top: 0px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid white;
+}
