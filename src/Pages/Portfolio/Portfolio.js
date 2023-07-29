@@ -16,11 +16,10 @@ const Portfolio = () => {
 
 
     return (
-        <div className='text-center pb-20 pt-10 max-w-[900px] mx-auto'>
+        <div className='text-center pb-20 pt-10 max-w-[1100px] mx-auto'>
             
-            <h1 className='text-4xl text-black font-bold'>Portfolio</h1>
-            <p className='text-gray-500'>My Recent Projects</p>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto gap-4 mt-10 text-start'>
+            <h1 className='text-4xl text-white font-bold uppercase'>Projects</h1>
+            <div className='grid grid-cols-1 lg:grid-cols-3 mx-auto gap-4 p-2 mt-10 text-start'>
                 {
                     projects.map(project => <PortfolioCard
                     project={project}

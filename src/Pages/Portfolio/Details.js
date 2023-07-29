@@ -8,6 +8,8 @@ import insta from '../../assets/instagram.png'
 import git from '../../assets/github.png'
 import link from '../../assets/linkedin.png'
 import whatsapp from '../../assets/Phone.png'
+import Lottie from "lottie-react";
+import workAnimation from '../../Comp 1.json'
 
 const Details = () => {
     const data = useLoaderData()
@@ -34,96 +36,84 @@ const Details = () => {
         fullImg.src = smlImg4.src
     }
     return (
-        <div className='details-bg pt-10 lg:p-0 p-2 pb-20 max-w-[1100px] mx-auto' >
+        <div className='details-bg text-white pt-10 lg:p-0 p-2 pb-20 max-w-[1100px] mx-auto' >
             <div className='flex flex-col lg:flex-row'>
+
                 <div className='w-full lg:w-1/2 p-4 details-img'>
-                    <img id='fullImg' src={img1} className=" h-72 w-full " alt='' />
+
+                    <img id='fullImg' src={img1} className=" h-56 w-full " alt='' />
                     <div className='grid grid-cols-4 gap-1 mt-4'>
                         <img id='smlImg1' src={img2} className='h-20 w-44 ' onClick={() => myFunction()} alt='' />
                         <img id='smlImg2' src={img3} className='h-20 w-44 ' onClick={() => myFunction2()} alt='' />
                         <img id='smlImg3' src={img4} className='h-20 w-44 ' onClick={() => myFunction3()} alt='' />
                         <img id='smlImg4' src={img1} className='h-20 w-44 ' onClick={() => myFunction4()} alt='' />
                     </div>
-                </div>
-                <div className='w-full lg:w-1/2 p-8 pt-2 details-card'>
-
-                    <h1 className='text-5xl uppercase  font-bold'>{name}</h1>
-
-
-
-
-                   <Link to='/contact'>
-                   <button className="btn bg-red-600 border-none mt-6  ">Post a review</button></Link>
-
-                    <div className='mt-8'>
-                        <p className='font-bold text-justify text-gray-600'>ABOUT THIS PROJECT</p>
-                        <p className=' text-justify text-gray-600'>{intro}</p>
-                       
-
-                        <div className='mt-8'>
-                        <p className=' text-justify text-gray-600 font-bold'>FEATURES</p>
-                        
-                        <p className=' text-justify text-gray-600'>{details.p1}</p>
-                        <p className=' text-justify text-gray-600'>{details.p2}</p>
-                        <p className=' text-justify text-gray-600'>{details.p3}</p>
-                        <p className=' text-justify text-gray-600'>{details.p4}</p>
-
-                        </div>
-                        <div className='mt-8'>
-                        <p className=' text-justify text-gray-600 font-bold'>TECHNOLOGY</p>
-                        {technology}
-                        </div>
-                    </div>
-
-
-
+                   
                     <div className='flex mt-8 flex-row'>
 
                         <a href={liveSite}>
-                            <button className='btn btn-primary    '>
+                            <button className='btn btn-primary rounded-none  '>
                                 <span className='text-sm normal-case'>Live Site</span>
                             </button>
                         </a>
                         <a href={clientSite}>
-                            <button className='btn btn-primary  mx-1'>
+                            <button className='btn btn-primary rounded-none  mx-1'>
                                 <span className='text-sm normal-case'>Client Site</span>
                             </button>
                         </a>
                         <a href={serverSite}>
-                            <button className='btn btn-primary '>
+                            <button className='btn btn-primary rounded-none  '>
                                 <span className='text-sm normal-case'>Server Site</span>
                             </button>
                         </a>
                         
                     </div>
+                </div>
 
-                    <div className='flex flex-row items-center mt-8'>
-                        <p className='font-semibold'>Share:</p>
-                        <div className='flex flex-row ml-2 gap-0'>
-                            <div className="avatar">
-                                <div className="w-10 ">
-                                    <img src={facebook} alt="Tailwind-CSS-Avatar-component" />
-                                </div>
-                            </div>
-                            <div className="avatar">
-                                <div className="w-10 ">
-                                    <img src={link} alt="Tailwind-CSS-Avatar-component" />
-                                </div>
-                            </div>
-                            <div className="avatar">
-                                <div className="w-10 ">
-                                    <img src={insta} alt="Tailwind-CSS-Avatar-component" />
-                                </div>
-                            </div>
-                            <div className="avatar">
-                                <div className="w-10 ">
-                                    <img src={whatsapp} alt="Tailwind-CSS-Avatar-component" />
-                                </div>
-                            </div>
-                           
-                            
+                <div className='w-full lg:w-1/2 p-4 pt-2 details-card'>
+
+                    <h1 className='text-5xl uppercase font-bold'>{name}</h1>
+
+
+
+
+                <div className='flex flex-row'>
+                    <div className='w-1/2'>
+                   
+                    </div>
+                   
+                </div>
+                <div>
+                    
+                    </div>
+
+                    <div className='mt-4'>
+                        <p className='font-bold text-justify '>ABOUT THIS PROJECT</p>
+                        <p className=' text-justify '>{intro}</p>
+                       
+
+                        <div className='mt-4'>
+                        <p className=' text-justify  font-bold'>FEATURES</p>
+                        
+                        <p className=' text-justify '>‣ {details.p1}</p>
+                        <p className=' text-justify '>‣ {details.p2}</p>
+                        <p className=' text-justify '>‣ {details.p3}</p>
+                        <p className=' text-justify '>‣ {details.p4}</p>
 
                         </div>
+                       
+                    </div>
+
+
+
+                    
+
+                    <div className='flex flex-row items-center mt-4'>
+                    <div className='mt-8'>
+                        <p className=' text-justify  font-bold'>TECHNOLOGY</p>
+                        {technology}
+                    </div>
+                       
                     </div>
 
                 </div>

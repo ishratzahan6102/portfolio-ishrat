@@ -6,13 +6,13 @@ import './Qualification.css'
 const Qualification = () => {
     return (
         <div className='text-center py-6 max-w-[1100px] mx-auto '>
-             <h1 className='text-4xl text-black font-bold'>Qualification</h1>
-            <p className='text-gray-500'>My Personal Journey</p>
+             <h1 className='text-4xl uppercase text-white font-bold'>Qualification</h1>
+            <p className='text-white'>Education Level</p>
 
             <div className='text-start p-10 lg:p-20 grid-cols-1 grid md:grid-cols-2 gap-6 justify-center items-start'>
                 
-            <div className='text-gray-600 '>
-                <h1 className='text-2xl  font-bold font-serif ml-8 '>Academic</h1>
+            <div className=' '>
+                <h1 className='font-bold ml-8 '>Academic</h1>
                <div className='qualification-block ' >
                <div className='qualification-box shadow-lg bg-base-100'>
                     <h2 className="">BBA </h2>
@@ -20,7 +20,7 @@ const Qualification = () => {
                     <div className=" justify-start flex
                     ">
                         <FaCalendar className='mt-1 mr-2'></FaCalendar>
-                        <p>2016 - 2020</p>
+                        <p>2017 - 2020</p>
                     </div>
                 </div>
                 <div className='qualification-box shadow-lg bg-base-100'>
@@ -43,8 +43,8 @@ const Qualification = () => {
             </div>
 
            
-            <div className='text-gray-600 '>
-                <h1 className='text-2xl  font-bold  font-serif  ml-8' >Courses</h1>
+            <div className=' '>
+                <h1 className='font-bold ml-8' >Non-Academic</h1>
                 <div className='qualification-block'>
                 <div className='qualification-box shadow-lg bg-base-100' >
                 <h2 className="">Web Development </h2>

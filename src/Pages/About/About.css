@@ -41,19 +41,19 @@
     rgba(0, 0, 0, 0.5)), url(../../assets/About.jpg);
     filter: grayscale(100%);
     background-size: cover;
-    color: white;
+  
 
     }
     .about-section{
         background-color: transparent;
         padding: 0px;
-        color: white;
+        
     }
     .about-card{
         padding: 0px;
-        color: white;
+       
     }
     .about-me{
-        color: white;
+       
     }
 }

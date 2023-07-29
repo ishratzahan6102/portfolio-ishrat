@@ -17,7 +17,6 @@ const Home = () => {
           <Qualification></Qualification>
           <Portfolio></Portfolio>
           <Services></Services>
-          
           <Testimonial></Testimonial>
           <Contact></Contact>
 

@@ -8,8 +8,9 @@
   
   .swiper-slide {
     text-align: center;
-    font-size: 14px;
-    background: #fff;
+   
+   
+ 
   
     /* Center slide text vertically */
     display: -webkit-box;
@@ -32,4 +33,9 @@
     height: 100%;
     object-fit: cover;
   }
-  
+  .bg-inherit{
+      border: 1px solid ;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: rgb(252, 248, 2) !important;
+}
